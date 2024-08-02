@@ -133,6 +133,10 @@ mark {
   height: 700px;
 }
 
+.relative-position {
+  position: relative;
+}
+
 #home-hero-title {
   position: absolute;
   text-align: left;
@@ -141,7 +145,7 @@ mark {
   font-size: 40px;
 }
 
-#home-hero-image-cite {
+.common-cite {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -316,6 +320,406 @@ mark {
 
 /* MESAPOTAMIA BIBIN - START */
 /* WRITE YOUR CSS HERE */
+
+#meso-hero-container {
+  display: flex;
+  /* margin: 30px; */
+  background-image: url('images/mesopotamia/meso-14.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  padding: 20px;
+  padding-top: 100px;
+  /* border-radius: 30px; */
+}
+
+#meso-hero-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#meso-hero-grid-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#meso-hero-grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+
+.meso-hero-grid-item {
+  height: 25vh;
+  width: 200px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border: 1px solid rgba(255, 255, 255, 0.439);
+}
+
+.meso-hero-grid-item img {
+  object-fit: cover;
+  max-width:100%;
+}
+
+#meso-hero-grid-container #item1 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 3;
+}
+
+#meso-hero-grid-container #item2 {
+  border-top-right-radius: 50px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 4;
+}
+
+#meso-hero-grid-container #item3 {
+  border-bottom-left-radius: 50px;
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-column-end: 2;
+  grid-row-end: 5;
+}
+
+#meso-hero-grid-container #item4 {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  grid-column-start: 2;
+  grid-row-start: 4;
+  grid-column-end: 3;
+  grid-row-end: 6;
+}
+
+#meso-main-root {
+  border-top: 0.5px solid var(--secondaryAccentColor);
+  padding: 30px;
+}
+
+#meso-main-grid-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.meso-main-grid-item {
+  background-color: var(--secondaryAccentColorFaded);
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#meso-main-item1 {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 3;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  background-image: url("images/mesopotamia/meso-8.jpg");
+  background-blend-mode: overlay;
+}
+
+#meso-main-item2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-end: 4;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-image: url("images/mesopotamia/meso-9.jpg");
+  background-blend-mode: overlay;
+}
+
+#meso-main-item3 {
+  border-top-right-radius: 50px;
+  grid-column-start: 4;
+  grid-row-start: 1;
+  grid-column-end: 5;
+  grid-row-end: 2;
+  background-image: url("images/mesopotamia/meso-10.jpg");
+  background-blend-mode: overlay;
+  position: relative;
+}
+#meso-main-item3 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#meso-main-item4 {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 3;
+  background-image: url("images/mesopotamia/meso-11.jpg");
+  background-blend-mode: overlay;
+}
+
+#meso-main-item5 {
+  border-bottom-right-radius: 50px;
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-column-end: 5;
+  grid-row-end: 3;
+  background-image: url("images/mesopotamia/meso-12.jpg");
+  background-blend-mode: overlay;
+  padding: 20px;
+}
+
+#meso-main-item1 ol li a {
+  text-decoration: none;
+  color: var(--foregroundColor);
+  padding: 8px;
+  margin: 5px;
+  border-radius: 10px;
+  transition: 0.2s;
+  background-color: var(--backgroundColor);
+}
+
+#meso-main-item1 ol li {
+  padding: 10px;
+
+}
+
+#meso-main-item1 ol li a:hover {
+  text-decoration: none;
+  color: var(--backgroundColor);
+  background-color: var(--primaryAccentColor);
+}
+
+#meso-form-root {
+  margin: 30px;
+  border-radius: 30px;
+  padding: 30px;
+  background-color: var(--secondaryAccentColor);
+}
+
+#meso-form-container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#meso-form-container img {
+  min-width: 30%;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.meso-input-container {
+  margin-bottom: 20px;
+}
+
+.meso-input-container input {
+  /* display: flex; */
+  transition-duration: 0.2s;
+}
+
+.meso-input-container label {
+  margin: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.meso-input-container .display-flex {
+  display: flex;
+  align-items: center;
+}
+
+.meso-input-container input[type="text"], .meso-input-container input[type="email"],
+.meso-input-container input[type="tel"], .meso-input-container input[type="number"],
+.meso-input-container input[type="date"], .meso-input-container select, .meso-input-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.meso-input-container input[type="radio"], .meso-input-container input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.meso-radio-container {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.meso-input-container textarea {
+  resize: vertical;
+}
+
+#meso-form-container form {
+  width: 50%;  
+  /* margin: 0 auto; */
+  padding: 20px;
+  background: var(--backgroundColorFaded);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.meso-input-container input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: var(--primaryAccentColor);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  scale: 1.05;
+}
+
+@media screen and (max-width: 950px) {
+  #meso-hero-left {
+    height: 100%;
+  }
+
+  #meso-hero-container {
+    flex-direction: column;
+  }
+
+  #meso-hero-grid-content {
+    margin-top: 50px;
+  }
+
+  #meso-main-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .meso-main-item4 img {
+    /* min-height: 30vh;
+    max-height: 30vh; */
+    height: 10vw;
+    /* width: 100%; */
+  }
+  
+  #meso-main-item1 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 0px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 2;
+  }
+  
+  #meso-main-item2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 4;
+  }
+  
+  #meso-main-item3 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 50px;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-column-end: 3;
+    grid-row-end: 5;
+  }
+  
+  #meso-main-item4 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-end: 2;
+    grid-row-end: 3;
+  }
+  
+  #meso-main-item5 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 2;
+    grid-row-end: 5;
+  }
+
+  #meso-form-container {
+    flex-direction: column;
+  }
+
+
+  #meso-form-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  #meso-form-container form {
+    width: 100%;  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MESAPOTAMIA BIBIN - END */
 
