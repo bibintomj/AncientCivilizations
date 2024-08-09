@@ -742,6 +742,55 @@ input[type="submit"]:hover {
 /* CHINA GIHAN - START */
 /* WRITE YOUR CSS HERE */
 
+.main-china-div{
+  padding: 2rem 4rem;
+}
+
+.title-China-container {
+ display: flex;
+ align-items: center;
+ padding: 3rem 0rem;
+ margin-top: 5rem;
+}
+
+.title-img {
+  border: 5px solid red;
+  border-radius: 20px;
+  position: relative;
+}
+
+.title-china h2{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.title-china p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 1rem;
+  padding-right: 4rem;
+}
+
+.china-image-container {
+  width: 100%;
+  text-align: center;
+  margin: 3rem 0;
+  border: 3px solid red;
+  padding: 15px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.title-China-container figcaption {
+  position: absolute;
+  font-size: 1.2rem;
+  color: #c51212;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 /* CHINA GIHAN - END */
 
 /* =========================== */
