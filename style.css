@@ -912,6 +912,7 @@ input[type="submit"]:hover {
 
 @media screen and (max-width: 950px) {
   .main-china {
+    margin: 1rem;
     padding: 1.5rem;
     font-size: 1.2rem;
   }
@@ -954,9 +955,11 @@ input[type="submit"]:hover {
   }
 
   .china-map-container {
-    border: 0.5px solid black;
+    border: 0.5px solid black;    
   }
-
+  .china-map-container iframe{
+    height: 250px;
+  }
   .button-container-2 {
     flex-direction: column;
   }
