@@ -934,7 +934,8 @@ input[type="submit"]:hover {
   }
 
   .china-image-container figcaption {
-    font-size: 1rem;
+    font-size: 0.7rem;
+    margin: 0 0.3rem 0.3rem 0;
   }
 
   #section-1 p {
