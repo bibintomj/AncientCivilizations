@@ -107,8 +107,6 @@ body {
   transition-duration: 0.2s;
 }
 
-
-
 .margined-top {
   margin-top: 100px;
 }
@@ -301,7 +299,7 @@ mark {
     border-radius: 20px;
   }
 
-  #menu-button:hover+#nav-options {
+  #menu-button:hover + #nav-options {
     display: flex;
   }
 
@@ -324,7 +322,7 @@ mark {
 #meso-hero-container {
   display: flex;
   /* margin: 30px; */
-  background-image: url('images/mesopotamia/meso-14.webp');
+  background-image: url("images/mesopotamia/meso-14.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -362,7 +360,8 @@ mark {
   width: 200px;
   overflow: hidden;
   position: relative;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border: 1px solid rgba(255, 255, 255, 0.439);
 }
 
@@ -424,7 +423,8 @@ mark {
   position: relative;
   background-size: cover;
   background-position: center;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #meso-main-item1 {
@@ -507,7 +507,6 @@ mark {
 
 #meso-main-item1 ol li {
   padding: 10px;
-
 }
 
 #meso-main-item1 ol li a:hover {
@@ -698,7 +697,6 @@ input[type="submit"]:hover {
     flex-direction: column;
   }
 
-
   #meso-form-container img {
     width: 100%;
     object-fit: cover;
@@ -710,21 +708,6 @@ input[type="submit"]:hover {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MESAPOTAMIA BIBIN - END */
 
@@ -830,9 +813,8 @@ input[type="submit"]:hover {
   color: #000000;
   border: 2px solid #fff;
   padding: 15px 15px 15px 30px;
-  background-color: #A7FC57;
+  background-color: #a7fc57;
   text-align: center;
-
 }
 
 .details-table-data {
@@ -840,14 +822,13 @@ input[type="submit"]:hover {
   border: 2px solid #fff;
   padding: 15px 15px 15px 30px;
   text-align: left;
-
 }
 
 #section-5 h3 {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #A7FC57;
+  color: #a7fc57;
 }
 
 .china-map-container {
@@ -898,9 +879,9 @@ input[type="submit"]:hover {
 }
 
 .custom-btn:hover {
-  background-color: #A7FC57;
+  background-color: #a7fc57;
   color: black;
-  border: #A7FC57;
+  border: #a7fc57;
   transform: scale(1.05);
 }
 
@@ -913,13 +894,12 @@ input[type="submit"]:hover {
 #section-7 h3 {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #A7FC57;
+  color: #a7fc57;
   margin: 2rem;
   text-align: center;
 }
 
 .Bibliography-list {
-
   padding-left: 30px;
   list-style-type: square;
   margin: 30px 0;
@@ -931,7 +911,6 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 950px) {
-
   .main-china {
     padding: 1.5rem;
     font-size: 1.2rem;
