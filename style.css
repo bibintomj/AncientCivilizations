@@ -107,7 +107,7 @@ body {
   transition-duration: 0.2s;
 }
 
-#home-main {}
+
 
 .margined-top {
   margin-top: 100px;
@@ -797,7 +797,7 @@ input[type="submit"]:hover {
   margin: 0 1rem 1rem 0;
 }
 
-.section-1 p {
+#section-1 p {
   margin-bottom: 2rem;
   line-height: 1.5;
   text-align: center;
@@ -809,11 +809,11 @@ input[type="submit"]:hover {
   text-align: justify;
 }
 
-.main-china-div section {
-  margin-bottom: 2rem;
+.section-div {
+  margin-bottom: 1rem;
 }
 
-.section-3 {
+#section-3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -844,7 +844,7 @@ input[type="submit"]:hover {
 
 }
 
-.section-5 h3 {
+#section-5 h3 {
   font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -859,7 +859,7 @@ input[type="submit"]:hover {
   border-radius: 20px;
 }
 
-.section-6 h4 {
+#section-6 h4 {
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
@@ -905,12 +905,13 @@ input[type="submit"]:hover {
   transform: scale(1.05);
 }
 
-.section-7 {
+#section-7 {
   border: 2px solid white;
+  margin-top: 3rem;
   border-radius: 20px;
 }
 
-.section-7 h3 {
+#section-7 h3 {
   font-size: 2.5rem;
   font-weight: 600;
   color: #A7FC57;
@@ -919,7 +920,7 @@ input[type="submit"]:hover {
 }
 
 .Bibliography-list {
- 
+
   padding-left: 30px;
   list-style-type: square;
   margin: 30px 0;
@@ -957,18 +958,20 @@ input[type="submit"]:hover {
     font-size: 1rem;
   }
 
-  .section-1 p {
+  #section-1 p {
     line-height: 1.2;
   }
 
   .section-content {
     line-height: 1.2;
   }
+
   .details-table {
     width: 100%;
+    font-size: 1.2rem;
   }
 
-  .section-5 h3 {
+  #section-5 h3 {
     font-size: 1.5rem;
   }
 
@@ -980,10 +983,11 @@ input[type="submit"]:hover {
     flex-direction: column;
   }
 
-  .section-7 {
+  #section-7 {
     border: 0.5px solid white;
   }
-  .section-7 h3 {
+
+  #section-7 h3 {
     font-size: 1.5rem;
   }
 }
