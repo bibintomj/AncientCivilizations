@@ -918,14 +918,15 @@ color: white;
 /* styles.css */
 
 .greece-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    /* margin: 0; */
+    /* font-family: Arial, sans-serif; */
+    /* background-color: #f4f4f4; */
     color: #333;
+    margin: 2rem;
 }
 
 .greece-hero, .greece-intro, .greece-card-section, .greece-comment-section, .greece-table-section {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -934,7 +935,6 @@ color: white;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    background-color: #006699;
 }
 
 .greece-grid-container {
