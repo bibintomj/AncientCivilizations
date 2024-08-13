@@ -950,7 +950,7 @@ th {
 .greece-intro {
     padding: 20px;
     text-align: left;
-    color: var(--primaryAccentColor);
+    color: #ffffff;
 }
 
 .greece-card-section {
@@ -1012,7 +1012,7 @@ th {
 .greece-submit-button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: var(--primaryAccentColor);
+    background-color: #000000;
     color: white;
     border: none;
     border-radius: 5px;
