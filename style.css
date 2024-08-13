@@ -950,7 +950,7 @@ th {
 .greece-intro {
     padding: 20px;
     text-align: left;
-    color: #006699;
+    color: var(--primaryAccentColor);
 }
 
 .greece-card-section {
