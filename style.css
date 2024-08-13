@@ -753,12 +753,12 @@ main {
 }
 
 .cite-anchor {
-  color: #0066cc;
+  color: var(--foregroundColor);
   text-decoration: none;
 }
 
 .cite-anchor:hover {
-  text-decoration: underline;
+  color: var(--primaryAccentColor);
 }
 
 .section-description {
@@ -818,7 +818,7 @@ color: white;
   background-color:black;
   padding: 20px;
   border: 1px solid #ddd;
-  border-radius: 5%;
+  border-radius: 30px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
   flex: 1 1 calc(33.333% - 40px);
   overflow: hidden;
