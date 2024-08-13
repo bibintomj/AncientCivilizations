@@ -714,7 +714,190 @@ input[type="submit"]:hover {
 /* =========================== */
 
 /* EGYPT RAHUL - START */
-/* WRITE YOUR CSS HERE */
+main {
+  padding: 20px;
+}
+
+#header-section {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#header-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+#header-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.header-cite {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+.cite-anchor {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.cite-anchor:hover {
+  text-decoration: underline;
+}
+
+.section-description {
+  font-size: 1.1em;
+  color: #fff;
+  margin: 15px 0;
+}
+
+.grid-section .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: black;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.grid-item h3 {
+text-align: center;
+font-weight: bold;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-item .image-container {
+  position:relative;
+}
+
+.grid-item .image-cite {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 0.8em;
+  color: #666;
+}
+.grid-item p {
+color: white;
+}
+
+.flex-section .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.flex-item {
+  background-color:black;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5%;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 40px);
+  overflow: hidden;
+}
+.flex-item p {
+color: white;
+}
+
+.flex-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.flex-item .image-container {
+  position: relative;
+}
+
+.flex-item .image-cite {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px;
+  font-size: 0.8em;
+  color: #666;
+}
+
+ul {
+  padding: 0;
+  list-style-type:disc;
+  border: 1px solid #ddd;
+  background-color: black;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+ul li {
+  
+  margin: 10px 0;
+  padding: 10px;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+
+@media (max-width: 992px) {
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+}
+
+
+@media (max-width: 768px) {
+.flex-container {
+  display: flex;
+  flex-direction: column;
+
+}
+}
+
 
 /* EGYPT RAHUL - END */
 
