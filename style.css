@@ -950,8 +950,7 @@ color: white;
 .greece-intro {
     padding: 20px;
     text-align: left;
-    background-color: #ffffff;
-    color: #006699;
+    color: #ffffff;
 }
 
 .greece-card-section {
@@ -1013,7 +1012,7 @@ color: white;
 .greece-submit-button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #006699;
+    background-color: #555555;
     color: white;
     border: none;
     border-radius: 5px;
@@ -1021,7 +1020,7 @@ color: white;
 }
 
 .greece-submit-button:hover {
-    background-color: #004466;
+    background-color: var(--primaryAccentColor);
 }
 
 .greece-table-section {
@@ -1044,7 +1043,7 @@ color: white;
 }
 
 .greece-th {
-    background-color: #006699;
+    background-color: #555555;
     color: white;
 }
 
