@@ -918,11 +918,8 @@ color: white;
 /* styles.css */
 
 .greece-body {
-    /* margin: 0; */
-    /* font-family: Arial, sans-serif; */
-    /* background-color: #f4f4f4; */
     color: #333;
-    margin: 2rem;
+    margin: 0rem 2rem 2rem 2rem;
 }
 
 .greece-hero, .greece-intro, .greece-card-section, .greece-comment-section, .greece-table-section {
@@ -931,16 +928,14 @@ color: white;
 }
 
 .greece-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px 0;
 }
 
 .greece-grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  grid-gap: 15px;
 }
 
 .greece-grid-item img {
@@ -952,7 +947,7 @@ color: white;
 
 .greece-grid-item {
     width: 100%;
-    height: 200px;
+    height: 300px;
 }
 
 .greece-intro {
@@ -963,25 +958,24 @@ color: white;
 
 .greece-card-section {
     padding: 20px;
-    background-color: #e0f7fa;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    border: 2px solid #006699;
+    border: 2px solid #ffffff;
     border-radius: 10px;
     box-sizing: border-box;
 }
 
 .greece-card {
     display: flex;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
 .greece-card img {
-    width: 150px;
+    width: 350px;
     height: auto;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
@@ -994,19 +988,25 @@ color: white;
 
 .greece-card-content h2 {
     margin: 0 0 10px;
-    color: #006699;
+    color: var(--primaryAccentColor);
 }
 
+.greece-content {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: white;
+}
 .greece-comment-section {
     padding: 20px;
-    background-color: #ffffff;
     text-align: left;
     margin-top: 20px;
     border-radius: 10px;
+    border: 2px solid white;
 }
 
 .greece-comment-section h1 {
-    color: #006699;
+    color: var(--primaryAccentColor);
 }
 
 .greece-comment-input {
@@ -1020,8 +1020,8 @@ color: white;
 .greece-submit-button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #555555;
-    color: white;
+    background-color: var(--primaryAccentColor);
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -1033,7 +1033,6 @@ color: white;
 
 .greece-table-section {
     padding: 20px;
-    background-color: #e0f7fa;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -1041,7 +1040,6 @@ color: white;
 .greece-table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #ffffff;
 }
 
 .greece-th, .greece-td {
@@ -1056,7 +1054,7 @@ color: white;
 }
 
 .greece-td {
-    color: #333;
+    color: #ffffff;
 }
 
 /* Media Queries for Responsiveness */
