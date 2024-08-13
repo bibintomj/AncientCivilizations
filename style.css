@@ -714,7 +714,7 @@ input[type="submit"]:hover {
 /* =========================== */
 
 /* EGYPT RAHUL - START */
-main {
+#egyptmain {
   padding: 20px;
 }
 
@@ -774,7 +774,7 @@ main {
 }
 
 .grid-item {
-  background-color: black;
+  background-color: transparent;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5%;
@@ -815,7 +815,7 @@ color: white;
 }
 
 .flex-item {
-  background-color:black;
+  background-color:transparent;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 30px;
@@ -846,7 +846,7 @@ color: white;
   color: #666;
 }
 
-ul {
+#landmarks ul {
   padding: 0;
   list-style-type:disc;
   border: 1px solid #ddd;
@@ -854,29 +854,29 @@ ul {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
 }
 
-ul li {
+#landmarks ul li {
   
   margin: 10px 0;
   padding: 10px;
   
 }
 
-table {
+#facts table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
 }
 
-table, th, td {
+#facts table, th, td {
   border: 1px solid #ddd;
 }
 
-th, td {
+#facts table  th, td {
   padding: 12px;
   text-align: left;
 }
 
-th {
+#facts table tr  th {
   background-color: #333;
   color: #fff;
 }
