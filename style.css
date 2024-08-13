@@ -1012,7 +1012,7 @@ th {
 .greece-submit-button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #006699;
+    background-color: var(--primaryAccentColor);
     color: white;
     border: none;
     border-radius: 5px;
@@ -1020,7 +1020,7 @@ th {
 }
 
 .greece-submit-button:hover {
-    background-color: #004466;
+    background-color: var(--primaryAccentColor);
 }
 
 .greece-table-section {
@@ -1043,7 +1043,7 @@ th {
 }
 
 .greece-th {
-    background-color: #006699;
+    background-color: var(--primaryAccentColor);
     color: white;
 }
 
