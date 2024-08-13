@@ -907,6 +907,198 @@ th {
 /* WRITE YOUR CSS HERE */
 /* styles.css */
 
+/* styles.css */
+
+.greece-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.greece-hero, .greece-intro, .greece-card-section, .greece-comment-section, .greece-table-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.greece-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #006699;
+}
+
+.greece-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.greece-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.greece-grid-item {
+    width: 100%;
+    height: 200px;
+}
+
+.greece-intro {
+    padding: 20px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #006699;
+}
+
+.greece-card-section {
+    padding: 20px;
+    background-color: #e0f7fa;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #006699;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.greece-card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.greece-card img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.greece-card-content {
+    padding: 20px;
+    color: #333;
+}
+
+.greece-card-content h2 {
+    margin: 0 0 10px;
+    color: #006699;
+}
+
+.greece-comment-section {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: left;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.greece-comment-section h1 {
+    color: #006699;
+}
+
+.greece-comment-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.greece-submit-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #006699;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.greece-submit-button:hover {
+    background-color: #004466;
+}
+
+.greece-table-section {
+    padding: 20px;
+    background-color: #e0f7fa;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.greece-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.greece-th, .greece-td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.greece-th {
+    background-color: #006699;
+    color: white;
+}
+
+.greece-td {
+    color: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .greece-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .greece-grid-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .greece-card {
+        flex-direction: column;
+    }
+
+    .greece-card img {
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .greece-comment-input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .greece-body {
+        font-size: 14px;
+    }
+
+    .greece-grid-item {
+        height: auto;
+    }
+
+    .greece-card-content {
+        padding: 15px;
+    }
+
+    .greece-submit-button {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .greece-th, .greece-td {
+        padding: 8px;
+    }
+}
 
 /* GREECE SHANTHAKUMAR - END */
 
